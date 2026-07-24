@@ -6,10 +6,13 @@
 body {
     display: grid;
     grid-template-columns: 2fr 6fr;
+    overflow: hidden;
 }
 
 .sidebar {
-    background-color: antiquewhite;
+    background-color: rgb(35, 31, 112);
+    color: rgb(241, 241, 241);
+    padding: 1.25rem;
     height: 100vh;
 }
 
@@ -27,3 +30,31 @@ body {
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
 }   
+
+.sidebar .section .title {
+    font-size: x-large;
+    border-bottom: 1px solid rgb(241, 241, 241);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem; 
+}
+
+a {
+    color: rgb(127, 140, 255)
+}
+
+.info-item {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.sidebar p {
+    opacity: 95%;
+}
+
+.info-item .item-img {
+    width: 22px;
+    filter: contrast(100%) brightness(0%) invert();
+}
