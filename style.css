@@ -1,0 +1,29 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+}
+
+.sidebar {
+    background-color: antiquewhite;
+    height: 100vh;
+}
+
+.main {
+    padding: 2rem 4rem;
+}
+
+.section {
+    margin: 4rem 0px;
+}
+
+.title {
+    font-size: xx-large;
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}   
